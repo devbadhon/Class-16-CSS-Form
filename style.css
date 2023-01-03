@@ -1,0 +1,100 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: antiquewhite;
+}   
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.form-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+main {
+    display: flex;
+    width: 90vh;
+    margin: 14% auto;
+    box-shadow: 0.3125rem 0.3125rem 0.3125rem rgb(0, 0, 0);
+}
+main > * {
+    flex-basis: 100%;
+}
+.login-form{
+    background-color: rgb(186, 186, 186);
+    text-align: center;
+}
+.login-from-heading{
+    margin-top:1.875rem;
+    margin-bottom: 1.875rem;
+    font-size: 3rem;
+    font-weight: 43.75rem;
+}
+.fa-brands{
+    /* icon design korar jonno  */
+    border: 0.125rem solid rgb(255, 255, 255);
+    padding: 0.25rem;
+    font-size: 1.25rem;
+    width: 1.875rem;
+    border-radius: 3.125rem;
+    height: 1.875rem;
+    margin-bottom: 1.875rem;
+}
+.fa-facebook-f{ 
+    /* twitwr r facebook er majkhane gep rakhar jonno */
+    margin-right: 0.625rem;
+}
+.fa-twitter{
+    /* twitwr r facebook er majkhane gep rakhar jonno */
+    margin-left: 0.625rem;
+}
+input{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    padding:0.3125rem;
+    font-size: 1rem;
+    margin-bottom: 0.9375rem;
+    margin-top: 0.625rem;
+    border: none;
+    border-radius: 0.3125rem;
+}
+form a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    display: inline-block;
+    margin-top: 1.25rem;
+    margin-bottom: 0.9375rem;
+}
+input[type="submit"] {
+    background: rgb(121, 121, 121);
+    width: 5rem;
+    border-radius: 1.875rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 0.125rem solid rgb(67, 67, 67);
+}
+.login-text{
+    background-image:linear-gradient(to right,#04c1fb, #ff0000b9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text h2 {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 2.0rem;
+    text-align: center;
+    margin-bottom: 1.5625rem;
+}
+.text {
+    padding: 5.5rem;
+}
+.text p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1rem;
+}
